@@ -34,7 +34,7 @@ ADD php.ini /etc/php/cli/conf.d/
 ADD php.ini /usr/local/etc/php
 ADD php-fpm.conf /etc/php/php-fpm.d/
 
-#WORKDIR /var/www/symfony
+WORKDIR /var/www/symfony
 
 EXPOSE 9000
 
